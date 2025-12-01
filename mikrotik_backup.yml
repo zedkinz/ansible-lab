@@ -24,3 +24,4 @@
         content: "{{ export_output.stdout }}"
         dest: "{{ backup_path }}/{{ inventory_hostname }}-{{ timestamp }}.rsc"
       delegate_to: localhost
+
