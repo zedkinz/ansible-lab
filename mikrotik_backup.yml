@@ -1,6 +1,6 @@
 ---
 - name: Backup Mikrotik Configuration
-  hosts: mikrotik
+  hosts: all
   gather_facts: no
 
   vars:
